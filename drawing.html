@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Drawing Book</title>
+	<link rel="stylesheet" type="text/css" href="product.css"/>
+
+</head>
+<body>
+<h1><img src="drawing.jpg"/>Drawing Book</h1>
+<div><h3>Product Details :</h3>
+	 <p>No. of pages : 120<br>Dimensions : 60*40cm<br>Page type : Semi rough,off white<br>Price : Rs.60</p>
+</div><br>
+<div>
+<form action="cgi-bin/buying.py" >
+<h3>Order Details :</h3>
+<p>
+Payment Option :<br>
+<input type="radio" name="p" class="rad" value='cod'>COD</input><br>
+<input type="radio" name="p" class="rad" value='emi'>EMI</input><br>
+<input type="radio" name="p" class="rad"  value='credit'>Credit/Debit/wallet</input><br><br>
+Quantity<br>
+<select name="quantity">
+  <option name="one" value=1>1</option>
+  <option name="two" value=2>2</option>
+  <option name="three" value=3>3</option>
+  <option name="four" value=4>4</option>
+</select><br><br>
+Address<br>
+<input name ="address" type="text"/><br><br>
+<button type="submit" name="submit" value=p110>Buy Now</button>
+</p>
+</form>
+</div>
+</body>
+
+
+
+
+
+</html>

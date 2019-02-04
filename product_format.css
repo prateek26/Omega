@@ -1,0 +1,26 @@
+h1{background-color:lightblue;
+   padding:15px;}
+
+img{width:120px;
+	height:120px;
+	border-radius:30%;
+	padding:3px;
+	border:4px solid lightblue;}
+
+p{color:green;
+	font-style:italic;}
+	
+a{color:Black;}
+	
+ul{list-style-type:square;
+	   color:purple;}
+h3{width:20%;}
+
+div{
+	font-size:25px;
+	text-align:left;
+	width:180px;
+	float:left;
+	margin:15px;}	   
+
+background-color:#f4e292	

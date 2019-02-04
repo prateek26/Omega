@@ -1,0 +1,22 @@
+h1{background-color:lightblue;}
+img{width:150px;height:150px;
+	padding:5px;}
+
+p{color:black;margin-left:40px;}
+p > input.rad{margin-left:90px}
+	
+a{color:green;
+	font-style:underline;}
+	
+ul{list-style-type:square;
+	   color:purple;}
+
+h3{background-color:lightorange;
+	margin-left:10px;}	 
+
+div{border:2px black solid;
+	margin-left:4px;
+	padding-left:4px;
+	background-color:#ccc;}  
+
+button{background-color:yellow;}	
